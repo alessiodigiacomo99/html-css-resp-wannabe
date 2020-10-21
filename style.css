@@ -73,12 +73,41 @@ img {
 }
 
 @media screen and (max-width: 420px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    padding: 20px 0;
+  }
+
   .row{
-    width: 50%
+    width: 100%;
+    margin-top: 0;
   }
 
   #lezioni .row .left,#lezioni .row .right{
     width: 100%;
+    padding-bottom: 20px;
   }
 
+  #lezioni{
+    background-color: lightyellow;
+  }
+
+  #steps .row .left, #steps .row .central, #steps .row .right{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  #why{
+    background-color: lightgrey;
+  }
+
+  #why .first hr, #why .second hr{
+    background-color: black;
+    height: 1px;
+  }
 }
