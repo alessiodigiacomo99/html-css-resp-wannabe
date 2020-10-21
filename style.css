@@ -109,5 +109,49 @@ img {
   #why .first hr, #why .second hr{
     background-color: black;
     height: 1px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 421px) and (max-width: 770px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    padding: 20px 0;
+  }
+
+  .row{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #lezioni .row .left,#lezioni .row .right{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  #lezioni{
+    background-color: lightgreen;
+  }
+
+  #steps .row .left, #steps .row .central, #steps .row .right{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  #why{
+    background-color: lightblue;
+  }
+
+  #why .first hr, #why .second hr{
+    background-color: orange;
+    height: 1px;
+    width: 90%;
+    margin: auto;
   }
 }
